@@ -16,6 +16,7 @@ def diff(n, m):
 
 
 if __name__ == "__main__":
+    string_3 = "String for master branch commit"
     print_abc()
     print(factorial(5))
     print(diff(5, 2))
