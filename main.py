@@ -1,3 +1,4 @@
+from getters import get_current_datetime
 
 def print_abc():
     print("abc")
@@ -17,6 +18,7 @@ def diff(n, m):
 
 if __name__ == "__main__":
     string_3 = "String for master branch commit"
+    print(f"Начинаем работу в {get_current_datetime()}")
     print_abc()
     print(factorial(5))
     print(diff(5, 2))
